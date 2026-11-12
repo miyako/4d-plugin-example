@@ -1,0 +1,20 @@
+{
+  "build_dir": "example/build",
+  "bundle_identifier": "com.4d.example",
+  "consumer_workflows": [
+    "pipeline-drift.yml"
+  ],
+  "dependencies": [],
+  "macos_deployment_target": "11.0",
+  "native_tests": false,
+  "product": "example",
+  "profile": "macos-universal-windows-x64",
+  "release_branch": "main",
+  "schema": 1,
+  "sdk_dir": "4D-Plugin-SDK",
+  "signing_environment": "release-signing",
+  "signing_policy": "developer-id",
+  "source_dir": "example",
+  "startup_method": "test_all",
+  "test_project": "example/example-test/Project/example.4DProject"
+}

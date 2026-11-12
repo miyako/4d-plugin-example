@@ -1,0 +1,26 @@
+example/example-test/Data/*
+example/example-test/Project/DerivedData/*
+example/example-test/userPreferences.*
+example/example-test/Plugins/
+example/build/
+example/cmake-build/
+**/xcuserdata/
+*.vcxproj.user
+.DS_Store
+example/.vs/*
+example/example/x64/*
+# BEGIN 4D PLUGIN PIPELINE (managed)
+/example/build/
+/example/example-test/Plugins/
+/.local-tools/
+/.package-inputs/
+/.package-validation/
+/.release-package/
+/.signed-distribution/
+/.signed-extracted/
+/.publish-extracted/
+/.draft-upload-check/
+/.draft-extracted/
+/.release-notes
+__pycache__/
+# END 4D PLUGIN PIPELINE (managed)

@@ -1,0 +1,30 @@
+{
+  "config_sha256": "3d02750d6cbb5ce1dd13ecdaefafa919651e6bf19200583c80fcb77ef2a59815",
+  "contract_sha256": "484f3a8afc23e40a7ea0008db5b49046dea530cc75eaf4b863e1253497f60e87",
+  "files": {
+    ".gitattributes": "ceca8f5927a88a73d027d6dd31aed169beec3665aec6f580bdde3c97f5f0893c",
+    ".github/actions/tool4d-test/action.yml": "16d5316cf61142aded1c17fd7a9bc3a568992357cf3b34438a92b6d5d9b6a705",
+    ".github/plugin-pipeline-contract.json": "484f3a8afc23e40a7ea0008db5b49046dea530cc75eaf4b863e1253497f60e87",
+    ".github/plugin-pipeline.json": "3d02750d6cbb5ce1dd13ecdaefafa919651e6bf19200583c80fcb77ef2a59815",
+    ".github/workflows/bump-version.yml": "21a646243297ae8650bcbfc2c70abcae4ba73f977f116ced18bec83e67fe6607",
+    ".github/workflows/release.yml": "4cbea6c064e68f8b41924a25a0ff65f4c10e1a8228adc46a893fbac29e5ee07d",
+    ".github/workflows/test.yml": "a8e36ccf5eca33d643c462340e01c6f01baa1fa5b2e6df4f7394a44e42ba9b3e",
+    ".gitignore": "de842017a56b5d4643d025c89ff175e9b2a67a2cac31aadb96f684c8ad068787",
+    "scripts/PIPELINE-LICENSE.txt": "175cd6137569620511706709ace1afe98a52c5e6c23ce92b7b2318ab4a6819c5",
+    "scripts/check_pipeline.py": "67df52fd6fef95e871362a2cfab7c90fccec4605d3da457c07cb60bda05a2abf",
+    "scripts/package.py": "5b6307c20aa9693bf936a2db88953a25fe69e175227710eb7f1fb3d16734e5af",
+    "scripts/publish_release.py": "7f179046506ac12edb660ff1bfaa3cdd2da8045e63ea4e95297ad53410f0adec",
+    "scripts/release_checks.py": "c39d8062e3480a45d900c8198fe6a67f7ddf8d41f2940e072d1524dddffa191f",
+    "scripts/sign-package.sh": "4dd92e304ff81649e824e4ade905d035a6aec8107391ab242e29cab01bd947f6",
+    "scripts/tests/test_package.py": "9ff36e3ae79f09501cc17ee92cb0ed0c9867ff8f67fc50c532818c54b51274f4",
+    "scripts/tests/test_pipeline_contract.py": "2483209084b2af989e4fb08952ea88c9b10b5d0b6704fae577379673bcb32352",
+    "scripts/tests/test_publish_release.py": "14b5f2980399adc3aa623d262481c1d47b26962c0fc0fdf23026db2909ada8ba",
+    "scripts/tests/test_release_checks.py": "833d6929e8a2c13d2f0acb04ec3c8fc361585f72bf7d5c8a48378ca6ce40dc7b",
+    "scripts/tests/test_sign_package.py": "91c20bdf99cb3bbc51cc1e244671fdae0554af7f18a88666a1eaf9ac20c19a01",
+    "scripts/tests/test_verify_release.py": "b5531afb300755e9795c61903dc3230a9dec4174cdf7251d54b6cfb9244eb8e3",
+    "scripts/verify_distribution.py": "3ce9036ecb81e8fde1e33e51054f7f6b469217c8a1388cf447db0f66bb979fa3",
+    "scripts/verify_release.py": "afc03518e262b72cdb3b3b6674cb245fabca73e5cdc24dbec6976e24f71f2535",
+    "templates/plugin-pipeline/REFERENCE.txt": "175cd6137569620511706709ace1afe98a52c5e6c23ce92b7b2318ab4a6819c5"
+  },
+  "schema": 1
+}
