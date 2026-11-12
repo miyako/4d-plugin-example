@@ -41,9 +41,12 @@ Longint型の種類を受け取ります。Unicode名と空の名前も4Dテス�
 
 `plugin-template` は公開済みコミット
 [`5a9997767fe3f6ba31e0da9ccdd1be74c891168f`](https://github.com/miyako/4d-plugin-template/commit/5a9997767fe3f6ba31e0da9ccdd1be74c891168f)
-を固定しています。これは **未マージ** の
+を固定しています。これは
 [`miyako/4d-plugin-template#30`](https://github.com/miyako/4d-plugin-template/pull/30)
-ブランチ上のコミットで、正規リポジトリの `main` ではありません。
+のレビュー対象コミットです。リポジトリ所有者が2026-11-12にマージしました
+（マージコミット
+[`283640d`](https://github.com/miyako/4d-plugin-template/commit/283640da2789c18b3e8d482aa65a980bb0955e36)）。
+固定値はそのマージに含まれる機能コミットのままで、可変の `main` 参照ではありません。
 正確な固定値は `git ls-tree HEAD plugin-template` で確認できます。
 ブランチが更新されても、このチェックアウトは変わりません。
 既存の `4D-Plugin-SDK` gitlinkは

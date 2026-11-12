@@ -42,9 +42,12 @@ and Visual Studio projects remain reference material, not the release path.
 
 `plugin-template` pins published commit
 [`5a9997767fe3f6ba31e0da9ccdd1be74c891168f`](https://github.com/miyako/4d-plugin-template/commit/5a9997767fe3f6ba31e0da9ccdd1be74c891168f)
-on the **unmerged**
+from
 [`miyako/4d-plugin-template#30`](https://github.com/miyako/4d-plugin-template/pull/30)
-branch, not canonical `main`. Inspect the exact pin with
+which the repository owner merged on 2026-11-12 (merge commit
+[`283640d`](https://github.com/miyako/4d-plugin-template/commit/283640da2789c18b3e8d482aa65a980bb0955e36)).
+The pin remains the reviewed feature commit included in that merge, not a
+floating `main` reference. Inspect the exact pin with
 `git ls-tree HEAD plugin-template`; changes to that branch cannot change this
 checkout. The baseline `4D-Plugin-SDK` gitlink is unchanged at
 [`cd97d1876d4258b56d2516e8ad2816f4ee93e0b5`](https://github.com/4d/4D-Plugin-SDK/tree/cd97d1876d4258b56d2516e8ad2816f4ee93e0b5).
